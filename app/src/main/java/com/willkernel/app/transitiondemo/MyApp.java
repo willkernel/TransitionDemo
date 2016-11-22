@@ -39,6 +39,6 @@ public class MyApp extends Application {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        Log.e(TAG, "onTrimMemory()");
+        Log.e(TAG, "onConfigurationChanged()");
     }
 }
